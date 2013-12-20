@@ -5,12 +5,12 @@ case `uname` in
 		export CLICOLOR=1
 		export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 		source ~/.bash/path.mac
-		hash module 2>/dev/null || { echo >&2 "I require module but it's not installed. Good Luck."; }
+		hash module 2>/dev/null || { echo >&2 "lmod not installed"; }
 		;;
 		Linux)
 		alias imake='imake -I/usr/share/X11/config'
 		source ~/.bash/path.linux
-		hash module 2>/dev/null || { echo >&2 "I require module but it's not installed. Good Luck."; }
+		hash module 2>/dev/null || { echo >&2 "lmod not installed"; }
 		;;
 esac
 

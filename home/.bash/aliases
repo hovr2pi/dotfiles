@@ -1,4 +1,46 @@
-
+alias newweb='ssh newweb'
+alias mama='ssh mama'
+alias deanston='ssh deanston'
+alias saucer='ssh saucer'
+alias phylo='ssh cs@phylocluster.biosci.utexas.edu'
+alias findr='find . -type f -name \* -print | xargs grep'
+alias isomount='sudo mount -o loop -t iso9660 $1 /mnt/iso'
+alias hbarcm='ssh hbar.cm.utexas.edu'
+alias jfs1='ssh csim@jfs1.cm.utexas.edu'
+alias holmes2='ssh cs@holmes2.ices.utexas.edu'
+alias musk='ssh cs@muskoka.cm.utexas.edu'
+alias lonestar='ssh lonestar.tacc.utexas.edu'
+alias stampede='ssh stampede.tacc.utexas.edu'
+alias ranger='ssh ranger.tacc.utexas.edu'
+alias longhorn='ssh longhorn.tacc.utexas.edu'
+alias maverick='ssh maverick.tacc.utexas.edu'
+alias fatman='ssh fatman.ices.utexas.edu'
+alias testcluster='ssh root@128.83.69.68'
+alias bevo='ssh bevo'
+alias zappa='ssh zappa'
+alias wipe='rm [A-D]* F* GA* GR* [H-Y]*'
+alias cpgen='cp /ices/csim/aces2/basis/GENBAS .'
+alias hydra='ssh simmons@hydra.chemie.uni-mainz.de'
+alias mozup='make -f client.mk checkout MOZ_CO_PROJECT=mail,calendar'
+alias ldapvim='ldapvi --bind simple -D  \(uid=csim\)'
+alias mail_history='pine -i -f history'
+alias ldapvical='ldapvi -h cal.ices.utexas.edu -b dc=pecos,dc=ices,dc=utexas,dc=edu -D cn=admin,dc=pecos,dc=ices,dc=utexas,dc=edu'
+alias lobo='ssh -l simmons -t wtrw.lanl.gov ssh lo-fe1'
+alias llnlvpn='sudo vpnc-connect ~/local/etc/llnl.conf'
+alias hera='ssh -l csimmons hera.llnl.gov'
+alias cdw='cd $WORK'
+alias dreamhost='ssh mpsiq@eucalyptus.dreamhost.com'
+alias sike="ssh mpsiq@eucalyptus.dreamhost.com"
+alias cds="cd $SCRATCH"
+alias thermo="ssh root@thermonaut.org"
+alias txcopr="ssh multipole.txcorp.com"
+alias dotorg="ssh ianhess@173.246.104.133"
+alias rdotorg="ssh root@173.246.104.133"
+alias hovr2pi="ssh hovr2pi.org"
+alias dudebro="git archive master | bzip2 >source-tree.tar.bz2"
+alias hbar="ssh hbar.ices.utexas.edu"
+alias fock="ssh fock.ices.utexas.edu"
+alias fockcc="ssh 173.246.104.133"
 #change Finder on OS X to show "hidden files"
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"

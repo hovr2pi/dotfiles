@@ -27,6 +27,5 @@ export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 
 # set gitapi homebrew token -- get your unique token at:
 # https://github.com/settings/applications
-
-export HOMEBREW_GITHUB_API_TOKEN="SOME_HASH"
+export HOMEBREW_GITHUB_API_TOKEN=d0832f38d87a8d4b1ea6ef81da7d9e9fed74d4dd
 

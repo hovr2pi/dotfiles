@@ -9,6 +9,7 @@ case `uname` in
 		;;
 		Linux)
 		alias imake='imake -I/usr/share/X11/config'
+		alias ls='ls --color'
 		source ~/.bash/path.linux
 		hash module 2>/dev/null || { echo >&2 "lmod not installed"; }
 		;;
